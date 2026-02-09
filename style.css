@@ -10,6 +10,17 @@ body {
     overflow-x: hidden;
     background-color: #ffffff;
 }
+.header-logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.img-logo img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
 
 /* Header et Navigation */
 header {
@@ -98,7 +109,7 @@ header {
 }
 
 .greeting {
-    font-size: 18px;
+    font-size: 25px;
     color: #00d4ff;
     margin-bottom: 10px;
     font-weight: 500;
@@ -113,7 +124,7 @@ header {
 }
 
 .profession {
-    font-size: 28px;
+    font-size: 25px;
     color: #333;
     margin-bottom: 40px;
 }
